@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <header>
+    <nav>
+      <div class="logo">My Portfolio</div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- About Section -->
+  <section id="about" class="section">
+    <h1>About Me</h1>
+    <p>
+      Hi! I'm  Srivani N, a Student with expertise in Web development. I enjoy creating beautiful and functional web solutions.
+    </p>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="section">
+    <h1>Projects</h1>
+    <div class="project-grid">
+      <div class="project-card">
+        <h2>Project 1</h2>
+        <p>Develop an efficient, user-friendly, and scalable Event Management System (EMS) to streamline event 
+            planning, registration, execution, and feedback collection for various types of events..</p>
+      </div>
+      <div class="project-card">
+        <h2>Project 2</h2>
+        <p>Develop a comprehensive Tourism Management System (TMS) that streamlines the operations of a tourism
+            business by integrating functionalities for managing travel packages, bookings, customer information, 
+            and vendor details, while providing an enhanced user experience.</p>
+      </div>
+      <div class="project-card">
+        <h2>Project 3</h2>
+        <p>To design and develop a comprehensive E-commerce Management System that facilitates seamless online 
+            shopping experiences while providing efficient tools for managing products, orders, customers, and 
+            analytics.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section">
+    <h1>Contact</h1>
+    <p>Feel free to reach out to me at:</p>
+    <form action="https://example.com/submit" method="post">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="4" required></textarea>
+      
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy;  All Rights Reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
